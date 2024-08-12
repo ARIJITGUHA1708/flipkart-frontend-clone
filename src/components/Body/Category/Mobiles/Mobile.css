@@ -1,0 +1,43 @@
+.main-mobile-container {
+  margin: 5px;
+  background-image: linear-gradient(rgb(250, 206, 206), rgb(228, 213, 213));
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  overflow: auto;
+}
+.items::-webkit-scrollbar {
+  display: none;
+}
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 60vh;
+  width: 17vw;
+}
+.Mobile_1,
+.Mobile_2,
+.Mobile_3,
+.Mobile_4,
+.Mobile_5,
+.Mobile_6 {
+  height: 40vh;
+  width: 15vw;
+  mix-blend-mode: multiply;
+  border-radius: 15px;
+}
+h4 {
+  text-align: center;
+}
+h2 {
+  margin-left: 10px;
+}

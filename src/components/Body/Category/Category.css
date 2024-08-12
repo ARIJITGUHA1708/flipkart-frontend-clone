@@ -1,0 +1,39 @@
+.main-body-container {
+  margin: 5px;
+  background-image: linear-gradient(rgb(228, 213, 213), rgb(248, 191, 191));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.category-1,
+.category-2,
+.category-3,
+.category-4,
+.category-5,
+.category-6,
+.category-7,
+.category-8,
+.category-9 {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-offer-image,
+.tv-image,
+.mobile-tablet-image,
+.furniture-image,
+.laptop-image,
+.travel-image,
+.grocery-image,
+.beauty-image,
+.home-and-kitchen-image {
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  margin-top: 10px;
+}
+h5 {
+  margin-top: 2px;
+}

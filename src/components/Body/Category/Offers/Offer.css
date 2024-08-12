@@ -1,0 +1,31 @@
+.main-offer-container {
+  margin: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 35vh;
+}
+.image-1,
+.image-2,
+.image-3 {
+  height: 15vh;
+  width: 10vw;
+  mix-blend-mode: multiply;
+}
+.item_1,
+.item_2,
+.item_3 {
+  display: flex;
+  margin: 5px;
+  width: 35vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.item_1 {
+  background-image: linear-gradient(rgb(250, 197, 206), rgb(254, 160, 176));
+}
+.item_2 {
+  background-image: linear-gradient(rgb(148, 230, 148), rgb(202, 230, 202));
+}
+.item_3 {
+  background-image: linear-gradient(rgb(249, 134, 93), rgb(250, 186, 163));
+}

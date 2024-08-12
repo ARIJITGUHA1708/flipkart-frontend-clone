@@ -1,0 +1,36 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+.main-logo {
+  margin-left: 10vw;
+  height: 9vh;
+  width: 10vw;
+}
+.search-bar {
+  width: 40vw;
+  height: 5vh;
+  border-radius: 5px;
+  background-color: rgb(187, 196, 196);
+}
+
+.options {
+  height: 5vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.option {
+  font-size: large;
+  color: black;
+  list-style: none;
+  margin: 20px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+}
