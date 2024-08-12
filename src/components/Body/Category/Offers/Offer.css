@@ -21,11 +21,14 @@
   justify-content: space-evenly;
 }
 .item_1 {
+  border-radius: 10px;
   background-image: linear-gradient(rgb(250, 197, 206), rgb(254, 160, 176));
 }
 .item_2 {
+  border-radius: 10px;
   background-image: linear-gradient(rgb(148, 230, 148), rgb(202, 230, 202));
 }
 .item_3 {
+  border-radius: 10px;
   background-image: linear-gradient(rgb(249, 134, 93), rgb(250, 186, 163));
 }

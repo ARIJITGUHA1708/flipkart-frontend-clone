@@ -1,6 +1,7 @@
 .main-mobile-container {
   margin: 5px;
-  background-image: linear-gradient(rgb(250, 206, 206), rgb(228, 213, 213));
+  border-radius: 10px;
+  background-image: linear-gradient(#ffa726, #ffcc80);
 }
 .items {
   display: flex;
@@ -32,7 +33,7 @@
 .Mobile_6 {
   height: 40vh;
   width: 15vw;
-  mix-blend-mode: multiply;
+  /* mix-blend-mode: multiply; */
   border-radius: 15px;
 }
 h4 {
