@@ -8,10 +8,18 @@ function App() {
   return (
     <>
       <div>
-        <Navbar />
-        <Category />
-        <Mobile />
-        <Offer />
+        <section id="navbar">
+          <Navbar />
+        </section>
+        <section id="category">
+          <Category />
+        </section>
+        <section id="mobile">
+          <Mobile />
+        </section>
+        <section id="offer">
+          <Offer />
+        </section>
       </div>
       <div></div>
     </>

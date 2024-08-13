@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import FlipkartLogo from "../../assets/flipkart-logo.webp";
 import "./Navbar.css";
+import Login from "../Login/Login";
 
 const Navbar = () => {
+  const [showLoginPage, setShowLoginPage] = useState(false);
+  const handleLogin = () => {
+    setShowLoginPage(true);
+  };
   return (
     <div className="navbar-container">
       <div className="main-logo-container">
@@ -19,7 +24,9 @@ const Navbar = () => {
       <div className="option-container">
         <ul className="options">
           <li className="option">
-            <a href="#">Login</a>
+            <a href="#" onClick={handleLogin}>
+              Login
+            </a>
           </li>
           <li className="option">
             <a href="#">Cart</a>
@@ -29,6 +36,11 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      {showLoginPage ? (
+        <Login setShowLoginPage={setShowLoginPage} />
+      ) : (
+        <div></div>
+      )}
     </div>
   );
 };

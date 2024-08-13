@@ -19,12 +19,31 @@
 .item-4,
 .item-5,
 .item-6 {
-  margin: 20px;
-  border: 1px solid black;
+  /* margin: 20px; */
+  margin: 3.14vh;
+  border: 0.5px solid black;
   border-radius: 15px;
   height: 60vh;
   width: 17vw;
+  font-family: cursive;
+  box-shadow: 3px 3px 3px black;
 }
+
+.item-1:hover,
+.item-2:hover,
+.item-3:hover,
+.item-4:hover,
+.item-5:hover,
+.item-6:hover {
+  /* margin: 20px; */
+  /* box-shadow: 5px 5px 3px #140e03;
+  transform: translateY(-5%); */
+  animation-name: productAnimation;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
 .Mobile_1,
 .Mobile_2,
 .Mobile_3,
@@ -41,4 +60,22 @@ h4 {
 }
 h2 {
   margin-left: 10px;
+}
+@media (max-width: 670px) {
+  .items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    overflow: auto;
+  }
+}
+
+@keyframes productAnimation {
+  from {
+  }
+  to {
+    transform: translateY(-3%);
+  }
 }
